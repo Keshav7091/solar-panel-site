@@ -31,7 +31,7 @@ const Intro = () => {
           <span className="uppercase text-sm text-gray-500 tracking-wider">
             Our Introduction
           </span>
-          <h2 className="text-4xl font-bold text-gray-900 mt-2 leading-snug">
+          <h2 className="text-4xl font-bold text-gray-900 mt-10 leading-snug">
             Energy Source for a <br /> Better Life
           </h2>
           <p className="text-gray-600 mt-4">
@@ -59,9 +59,9 @@ const Intro = () => {
           {/* Buttons & Contact */}
           <div className="mt-8 flex items-center gap-8">
             {/* Learn More Button */}
-            <button className="bg-orange-500 text-white px-6 py-3 font-semibold rounded-sm hover:bg-black transition">
-              Learn More
-            </button>
+            <button className="flex bg-[#f6a235] items-center justify-center gap-2 text-white w-37 h-12 rounded-sm hover:bg-gray-800 transition font-semibold">
+          <span className="text-sm">Learn More</span>
+        </button>
 
             {/* Contact Info */}
             <div className="flex items-center gap-3">
