@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* ==== Global Colors ==== */
+:root {
+  --color-primary: #F59E0B;   /* Orange - Buttons, highlights */
+  --color-secondary: #166534; /* Green - Secondary actions */
+  --color-bg: #FFFFFF;        /* White background */
+  --color-text: #111827;      /* Dark text */
+  --color-muted: #6B7280;     /* Gray muted text */
+}
+
+/* ==== Global Reset ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  /* line-height: 1.6; */
+}
+
+/*  google font */
+.font-Roboto{
+  font-family: "Roboto", sans-serif;
+}
+
+.font-Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ==== Containers ==== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ==== Headings ==== */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: black;
+}
