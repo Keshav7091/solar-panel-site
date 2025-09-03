@@ -3,24 +3,20 @@ import { FaCheckCircle, FaPhoneAlt } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section className="!py-24 bg-white">
+    <section className="py-24 bg-white">
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        {/* Left Side (Image + Experience Box) */}
         <div className="relative aspect-square md:aspect-auto md:h-[550px]">
-          <img
-            src="/intro.jpg"
-            alt="Agency studio"
-            className="w-full h-full object-cover shadow-text"
-          />
+          <div className="absolute bottom-0 left-0 w-[90%] h-8 bg-gray-200 rounded-sm -z-10"></div>
 
-          <div className="absolute  md:bottom-0 left-0 w-25 h-30 md:w-40 md:h-45 bg-[#f6a235] p-4 md:p-6 flex items-center justify-center">
-            <div className="text-center">
-              <p className="text-3xl md:text-5xl font-bold font-montserrat text-white shadow-text">
+          <img src="/intro.jpg" alt="Agency studio" className="w-full h-full object-cover" />
+
+          <div className="absolute bottom-0 left-0 w-22 h-25 md:w-38 md:h-40 bg-[#f6a235] flex items-center justify-center">
+            <div className="text-center leading-none">
+              <p className="text-3xl md:text-5xl font-bold font-montserrat text-white shadow-text mb-1">
                 5+
               </p>
-
-              <p className="text-xs md:text-base text-gray-light font-roboto mt-1 md:mt-2">
-                Years of Creative Excellence
+              <p className="text-xs md:text-base text-white font-roboto">
+                Years of Experience
               </p>
             </div>
           </div>
@@ -28,6 +24,7 @@ const Intro = () => {
 
         {/* Right Side (Content) */}
         <div>
+          <div className="w-5 h-[2px] bg-[#f6a235] mb-3"></div>
           <span className="uppercase text-sm text-gray-500 tracking-wider">
             Our Introduction
           </span>
@@ -59,9 +56,9 @@ const Intro = () => {
           {/* Buttons & Contact */}
           <div className="mt-8 flex items-center gap-8">
             {/* Learn More Button */}
-            <button className="flex bg-[#f6a235] items-center justify-center gap-2 text-white w-37 h-12 rounded-sm hover:bg-gray-800 transition font-semibold">
-          <span className="text-sm">Learn More</span>
-        </button>
+            <button className="flex bg-[#f6a235] cursor-pointer items-center justify-center gap-2 text-white w-37 h-12 rounded-sm hover:bg-gray-800 transition font-semibold">
+              <span className="text-sm">Learn More</span>
+            </button>
 
             {/* Contact Info */}
             <div className="flex items-center gap-3">

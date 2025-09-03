@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Right Side: Button */}
         <div className="hidden md:block">
-          <button className="flex items-center justify-center gap-2 btn-primary text-white w-44 h-12 rounded-sm hover:bg-black transition font-semibold">
+          <button className="flex items-center justify-center gap-2 btn-primary text-white w-44 h-12 rounded-sm hover:bg-black transition font-semibold cursor-pointer">
             <FaEnvelope size={18} />
             <span className="text-sm">Get a Quote</span>
           </button>

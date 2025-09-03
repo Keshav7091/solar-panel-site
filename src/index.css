@@ -4,12 +4,27 @@
 @import "tailwindcss";
 
 
+/* ==== Global Colors ==== */
+:root {
+  --color-primary: #F59E0B;   /* Orange - Buttons, highlights */
+  --color-secondary: #166534; /* Green - Secondary actions */
+  --color-bg: #FFFFFF;        /* White background */
+  --color-text: #111827;      /* Dark text */
+  --color-muted: #6B7280;     /* Gray muted text */
+}
+
+/* Outline text style */
+.outline-text {
+  -webkit-text-stroke: 2px white; /* border thickness + color */
+}
+
+
 /* ==== Global Reset ==== */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   background-color: var(--color-bg);
