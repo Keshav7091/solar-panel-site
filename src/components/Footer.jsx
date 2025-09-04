@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { FiInstagram, FiFacebook, FiLinkedin, FiYoutube } from "react-icons/fi";
 import { IoMdMail, IoMdCall } from "react-icons/io";
+import { GiSolarPower } from "react-icons/gi";
 
 const Footer = () => {
   const handleLinkClick = () => {
@@ -17,12 +18,12 @@ const Footer = () => {
       {/* 🔶 Orange Top Banner */}
       <div className="relative bg-black py-15 mt-20">
         {/* CTA Box */}
-        <div className="absolute left-1/2 -translate-x-1/2 -top-[90%] w-[80%]">
-          <div className="bg-[#f6a235] py-10 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between shadow-lg">
-            <h2 className="text-3xl md:text-5xl font-bold text-white max-w-150 mb-4 md:mb-0">
+        <div className="absolute left-1/2 -translate-x-1/2 -top-[90%] w-[90%] md:w-[80%]">
+          <div className="bg-[#f6a235] py-10 px-6 md:px-16 flex flex-col md:flex-row items-center md:items-center justify-center md:justify-between shadow-lg text-center md:text-left">
+            <h2 className="text-2xl md:text-5xl font-bold text-white max-w-150 mb-4 md:mb-0">
               Smartest Way to Generate Electricity
             </h2>
-            <button className="bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800 hover:text-white transition mr-25">
+            <button className="bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800 hover:text-white transition">
               Get in Touch
             </button>
           </div>
@@ -40,11 +41,21 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="flex justify-center">
             <div className="w-fit">
-              <div className="flex items-center gap-2 mb-5">
-                <div className="text-[#f6a235] text-3xl">☀️</div>
-                <span className="text-2xl font-extrabold text-white">
-                  Solam
-                </span>
+              <div className="flex items-center gap-3 mb-9">
+                {/* Icon */}
+                <div className="bg-orange-100 p-2 rounded-full">
+                  <GiSolarPower className="text-orange-500 text-4xl" />
+                </div>
+
+                {/* Text */}
+                <div className="flex flex-col leading-tight">
+                  <span className="text-2xl md:text-3xl font-extrabold text-white tracking-wide">
+                    Next Grid
+                  </span>
+                  <span className="text-sm md:text-base font-semibold text-orange-500 uppercase tracking-widest">
+                    Solar Energy
+                  </span>
+                </div>
               </div>
               <p className="text-gray-400 font-roboto mb-6">
                 We Offer a Wide Range of Quality Solar Panel Installation

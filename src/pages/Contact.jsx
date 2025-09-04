@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
+import CustomButton from "../components/CustomButton";
 
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -161,12 +162,8 @@ const Contact = () => {
                     className="w-full bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235] resize-none"
                   ></textarea>
 
-                  <button
-                    type="submit"
-                    className="flex bg-[#f6a235] items-center justify-center cursor-pointer gap-2 text-white w-44 h-14 rounded-sm hover:bg-gray-600 transition font-semibold"
-                  >
-                    Send a Message
-                  </button>
+
+                  <CustomButton text="Send a Message" size="lg" />
                 </form>
               </div>
             </div>

@@ -25,7 +25,7 @@ const teamMembers = [
 
 const OurTeam = () => {
   return (
-    <section className="py-16 pb-30 container bg-white">
+    <section className="py-16 pb-30  bg-white">
       <div className="text-center mb-12">
         <div className="w-5 h-[2px] bg-[#f6a235] mb-3 mx-auto"></div>
         <h4 className="text-sm text-gray-400 font-bold tracking-widest uppercase mb-2">
@@ -41,7 +41,7 @@ const OurTeam = () => {
           {teamMembers.map((member) => (
             <div
               key={member.id}
-              className="bg-white rounded-lg shadow-lg overflow-hidden group"
+              className="bg-white overflow-hidden group"
             >
               {/* Image */}
               <img

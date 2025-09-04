@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import CustomButton from "../components/CustomButton";
 
 const products = [
   {
@@ -85,9 +86,7 @@ export default function Products() {
                   <h4 className="text-2xl font-bold text-white mb-3 lewading-tight">
                     {prod.title}
                   </h4>
-                  <button className="mt-3 bg-[#f6a235] text-white px-4 py-2 transition cursor-pointer">
-                    View More
-                  </button>
+                  <CustomButton text="View More" to="/product" size="sm" />
                 </div>
               </div>
             ))}

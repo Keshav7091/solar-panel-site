@@ -6,14 +6,14 @@ const Hero = () => {
       className="relative bg-cover bg-center h-[90vh] flex items-center"
       style={{
         backgroundImage:
-          "url('https://img.freepik.com/free-photo/solar-panel-roof-house_158595-6112.jpg')", // apni image ka link yaha dalna
+          "url('/hero.jpg')",
       }}
     >
       {/* Overlay for dark effect */}
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
-      <div className="relative container !px-10 text-white">
+      <div className="relative container !px-10 text-white z-1">
         <p className="uppercase font-Roboto font-bold text-md tracking-widest mb-5">
           Solar Panel Installation Solution
         </p>
@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
       {/* Transparent big ENERGY text */}
-      <h1 className="absolute -bottom-24 left-1/2 -translate-x-1/2 text-[8rem] md:text-[12rem] font-bold text-transparent select-text outline-text tracking-[3rem]">
+      <h1 className="absolute  left-1/2 -translate-x-1/2 font-bold text-transparent select-none outline-text tracking-widest text-[20vw] sm:text-[18vw] md:text-[17vw] lg:text-[15vw] -bottom-10 md:-bottom-22 lg:-bottom-32 z-0">
         ENERGY
       </h1>
     </section>

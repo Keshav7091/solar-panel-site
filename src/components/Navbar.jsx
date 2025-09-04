@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { FaEnvelope } from "react-icons/fa";
+import { GiSolarPower } from "react-icons/gi";
+import CustomButton from "./CustomButton";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,10 +23,26 @@ const Navbar = () => {
       <div className="px-10 flex justify-between items-center h-20">
         {/* Left Side: Logo + Nav Items */}
         <div className="flex items-center gap-12">
-          {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="text-orange-500 text-3xl">☀️</div>
-            <span className="text-2xl font-extrabold text-gray-900">Solam</span>
+          <div className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3">
+              {/* Icon */}
+              <div className="bg-orange-100 p-2 rounded-full">
+                <GiSolarPower className="text-orange-500 text-4xl" />
+              </div>
+
+              {/* Text */}
+              <div className="flex flex-col leading-tight">
+                <span className="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-wide">
+                  Next Grid
+                </span>
+                <span className="text-sm md:text-base font-semibold text-orange-500 uppercase tracking-widest">
+                  Solar Energy
+                </span>
+              </div>
+            </Link>
+
+            {/* Vertical line */}
+            <div className="h-10 border-l border-gray-400 ml-4"></div>
           </div>
 
           {/* Desktop Nav Items */}
@@ -52,10 +70,7 @@ const Navbar = () => {
 
         {/* Right Side: Button */}
         <div className="hidden md:block">
-          <button className="flex items-center justify-center gap-2 btn-primary text-white w-44 h-12 rounded-sm hover:bg-black transition font-semibold cursor-pointer">
-            <FaEnvelope size={18} />
-            <span className="text-sm">Get a Quote</span>
-          </button>
+          <CustomButton text="Get a Quote" icon={FaEnvelope} to="/contact" />
         </div>
 
         {/* Mobile Menu Button */}

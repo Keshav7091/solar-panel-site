@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCheckCircle, FaPhoneAlt } from "react-icons/fa";
+import CustomButton from "./CustomButton";
 
 const Intro = () => {
   return (
@@ -56,9 +57,9 @@ const Intro = () => {
           {/* Buttons & Contact */}
           <div className="mt-8 flex items-center gap-8">
             {/* Learn More Button */}
-            <button className="flex bg-[#f6a235] cursor-pointer items-center justify-center gap-2 text-white w-37 h-12 rounded-sm hover:bg-gray-800 transition font-semibold">
-              <span className="text-sm">Learn More</span>
-            </button>
+            
+
+            <CustomButton text="Learn More"  />
 
             {/* Contact Info */}
             <div className="flex items-center gap-3">
