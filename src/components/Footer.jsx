@@ -45,16 +45,19 @@ const Footer = () => {
             <div className="w-fit">
               <div className="flex items-center gap-3 mb-9">
                 {/* Icon */}
-                <div className="bg-orange-100 p-2 rounded-full">
-                  <GiSolarPower className="text-orange-500 text-4xl" />
+                <div className=" p-2 h-full rounded-full">
+                  <img
+                    src="/logo.jpeg"
+                    className="h-full aspect-[1/1] object-contain"
+                  />
                 </div>
 
                 {/* Text */}
                 <div className="flex flex-col leading-tight">
                   <span className="text-2xl md:text-3xl font-extrabold text-white tracking-wide">
-                    Next Grid
+                    NextGrid
                   </span>
-                  <span className="text-sm md:text-base font-semibold text-orange-500 uppercase tracking-widest">
+                  <span className="text-sm whitespace-nowrap md:text-base font-semibold text-orange-500 uppercase tracking-widest">
                     Solar Energy
                   </span>
                 </div>

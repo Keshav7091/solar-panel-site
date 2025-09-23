@@ -19,15 +19,18 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white  shadow-sm top-0 z-50 border-b">
-      <div className="px-10 flex justify-between items-center h-20">
+    <nav className="bg-white  shadow-sm top-0 z-50 border-b h-[10vh]">
+      <div className="px-10 flex justify-between h-full items-center h-20">
         {/* Left Side: Logo + Nav Items */}
-        <div className="flex items-center gap-12">
-          <div className="flex items-center gap-3">
-            <Link to="/" className="flex items-center gap-3">
+        <div className="flex items-center h-full gap-12">
+          <div className="flex items-center h-full gap-3">
+            <Link to="/" className="flex items-center h-full gap-3">
               {/* Icon */}
-              <div className="bg-orange-100 p-2 rounded-full">
-                <GiSolarPower className="text-orange-500 text-4xl" />
+              <div className=" p-2 h-full rounded-full">
+                <img
+                  src="/logo.jpeg"
+                  className="h-full aspect-[1/1] object-contain"
+                />
               </div>
 
               {/* Text */}
