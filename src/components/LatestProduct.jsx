@@ -59,7 +59,7 @@ const LatestProduct = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.75)] via-[rgba(0,0,0,0.3)] to-transparent"></div>
 
             {/* Content */}
-            <div className="absolute bottom-6 left-6 right-6 transition-all duration-500 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+            <div className="absolute bottom-6 left-6 right-6 transition-all duration-500 transform  translate-y-0 group-hover:opacity-100">
               <div className="w-6 h-[2px] bg-[#f6a235] mb-2"></div>
               <p className="text-xs uppercase tracking-widest text-[rgba(255,255,255,.7)] mb-2">
                 {prod.description}
