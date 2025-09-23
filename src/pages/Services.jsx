@@ -1,55 +1,60 @@
 import React from "react";
-import { Sun, Wind, Battery, Home, Wrench, Lightbulb } from "lucide-react"; // icons
+import {
+  Sun,
+  Wind,
+  Battery,
+  Home,
+  Wrench,
+  Lightbulb,
+  Car,
+  Droplet,
+  Shield,
+} from "lucide-react"; // icons
+
 import Banner from "../components/Banner";
 
 const services = [
   {
     id: 1,
-    title: "Solar Technology",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Solar Mini Grids",
+    description: "Reliable off-grid power for rural & remote locations",
     image: "/service1.webp",
     icon: <Sun className="w-10 h-10 text-white" />,
   },
   {
     id: 2,
-    title: "Wind Energy",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Solar Carports",
+    description: "Dual-purpose parking spaces with integrated solar roofs",
     image: "/service2.webp",
-    icon: <Wind className="w-10 h-10 text-white" />,
+    icon: <Car className="w-10 h-10 text-white" />,
   },
   {
     id: 3,
-    title: "Battery Storage",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Centralized Solar & Street Lighting",
+    description: "Efficient solutions for urban & rural roads",
     image: "/service3.webp",
-    icon: <Battery className="w-10 h-10 text-white" />,
+    icon: <Lightbulb className="w-10 h-10 text-white" />,
   },
   {
     id: 4,
-    title: "Residential Solar",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Solar Water Pumps",
+    description: "Sustainable irrigation and water supply",
     image: "/service4.webp",
-    icon: <Home className="w-10 h-10 text-white" />,
+    icon: <Droplet className="w-10 h-10 text-white" />,
   },
   {
     id: 5,
-    title: "Maintenance",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Solar Home Lighting Systems",
+    description: "Affordable clean energy for households",
     image: "/service5.webp",
-    icon: <Wrench className="w-10 h-10 text-white" />,
+    icon: <Home className="w-10 h-10 text-white" />,
   },
   {
     id: 6,
+    title: "Solar Security Solutions",
+    description: "Road safety lights, blinkers, studs, and delineators",
     image: "/service6.webp",
-    icon: <Lightbulb className="w-10 h-10 text-white" />,
-    title: "Smart Lighting",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    icon: <Shield className="w-10 h-10 text-white" />,
   },
 ];
 
@@ -70,6 +75,15 @@ export default function Services() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Our Services
           </h2>
+        </div>
+
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+            NextGrid Solar – Powering Homes & Businesses with Clean Energy
+          </h3>
+          <p className="text-gray-600 text-base leading-relaxed">
+            At NextGrid Solar, we believe in building a greener tomorrow by harnessing the power of the sun. With world-class technology, experienced engineers, and a customer-first approach, we provide end-to-end solar solutions that reduce electricity costs, increase energy independence, and promote sustainability.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

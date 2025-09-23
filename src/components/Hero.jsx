@@ -1,12 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <section
       className="relative bg-cover bg-center h-[90vh] flex items-center"
       style={{
-        backgroundImage:
-          "url('/hero.jpg')",
+        backgroundImage: "url('/hero.jpg')",
       }}
     >
       {/* Overlay for dark effect */}
@@ -15,14 +15,17 @@ const Hero = () => {
       {/* Content */}
       <div className="relative container !px-10 text-white z-1">
         <p className="uppercase font-Roboto font-bold text-md tracking-widest mb-5">
-          Solar Panel Installation Solution
+          NextGrid Solar
         </p>
         <h1 className="text-5xl md:text-7xl font-bold !text-white leading-tight mb-10">
-          Powering Homes <br /> With Solar Panels
+          Powering a <br /> Sustainable Future
         </h1>
-        <button className="flex bg-[#f6a235] items-center justify-center cursor-pointer gap-2 text-white w-44 h-14 rounded-sm hover:bg-gray-600 transition font-semibold">
+        <Link
+          to="/about"
+          className="flex bg-[#f6a235] items-center justify-center cursor-pointer gap-2 text-white w-44 h-14 rounded-sm hover:bg-gray-600 transition font-semibold"
+        >
           <span className="text-sm">Discover More</span>
-        </button>
+        </Link>
       </div>
 
       {/* Transparent big ENERGY text */}

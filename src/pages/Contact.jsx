@@ -93,16 +93,17 @@ const Contact = () => {
               {/* Left Side */}
               <div>
                 <div className="w-5 h-[2px] bg-[#f6a235] mb-3"></div>
-                <span className="uppercase text-sm text-gray-500 tracking-wider">
-                  Get in touch
-                </span>
-                <h2 className="text-5xl font-bold text-gray-900 mt-5 leading-snug">
-                  Schedule a Quote
+                <h2 className="text-4xl font-bold text-gray-900 mt-5 leading-snug">
+                  Take the Next Step Towards Solar
                 </h2>
                 <p className="text-gray-600 mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
+                  Whether you want to power your home, business, or industry, NextGrid Solar has the right solution for you. Our team is ready to guide you through every step – from consultation to commissioning.
+                </p>
+                <p className="text-gray-600 mt-4">
+                  📞 Contact Us Today for a free consultation and start saving with solar!
+                </p>
+                <p className="text-gray-600 mt-2">
+                  💡 NextGrid Solar – Lighting the Future, One Panel at a Time.
                 </p>
 
                 <ul className="mt-6 space-y-4 text-gray-700">
@@ -123,6 +124,9 @@ const Contact = () => {
 
               {/* Right Side Form */}
               <div className="bg-[#faf5ef] p-8 ">
+              <h2 className="text-4xl font-bold text-gray-900 my-5 leading-snug">
+                  Contact Us
+                </h2>
                 <form
                   className="space-y-5 flex flex-col"
                   onSubmit={handleSubmit}

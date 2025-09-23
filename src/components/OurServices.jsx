@@ -1,30 +1,49 @@
 import React from "react";
-import { Sun, Wind, Battery } from "lucide-react";
+
+import { Sun, Wind, Battery, Home, Wrench, Lightbulb, Car, Droplet, Shield } from "lucide-react"; // icons
 
 const services = [
   {
     id: 1,
-    title: "Solar Technology",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Solar Mini Grids",
+    description: "Reliable off-grid power for rural & remote locations",
     image: "/service1.webp",
     icon: <Sun className="w-10 h-10 text-white" />,
   },
   {
     id: 2,
-    title: "Wind Energy",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Solar Carports",
+    description: "Dual-purpose parking spaces with integrated solar roofs",
     image: "/service2.webp",
-    icon: <Wind className="w-10 h-10 text-white" />,
+    icon: <Car className="w-10 h-10 text-white" />,
   },
   {
     id: 3,
-    title: "Battery Storage",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.",
+    title: "Centralized Solar & Street Lighting",
+    description: "Efficient solutions for urban & rural roads",
     image: "/service3.webp",
-    icon: <Battery className="w-10 h-10 text-white" />,
+    icon: <Lightbulb className="w-10 h-10 text-white" />,
+  },
+  {
+    id: 4,
+    title: "Solar Water Pumps",
+    description: "Sustainable irrigation and water supply",
+    image: "/service4.webp",
+    icon: <Droplet className="w-10 h-10 text-white" />,
+  },
+  {
+    id: 5,
+    title: "Solar Home Lighting Systems",
+    description: "Affordable clean energy for households",
+    image: "/service5.webp",
+    icon: <Home className="w-10 h-10 text-white" />,
+  },
+  {
+    id: 6,
+    title: "Solar Security Solutions",
+    description: "Road safety lights, blinkers, studs, and delineators",
+    image: "/service6.webp",
+    icon: <Shield className="w-10 h-10 text-white" />,
   },
 ];
 

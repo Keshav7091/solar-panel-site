@@ -19,11 +19,11 @@ const Footer = () => {
       <div className="relative bg-black py-15 mt-20">
         {/* CTA Box */}
         <div className="absolute left-1/2 -translate-x-1/2 -top-[90%] w-[90%] md:w-[80%]">
-          <div className="bg-[#f6a235] py-10 px-6 md:px-16 flex flex-col md:flex-row items-center md:items-center justify-center md:justify-between shadow-lg text-center md:text-left">
-            <h2 className="text-2xl md:text-5xl font-bold text-white max-w-150 mb-4 md:mb-0">
-              Smartest Way to Generate Electricity
+          <div className="bg-[#f6a235] py-10 px-6 md:px-10 flex flex-col md:flex-row items-center md:items-center justify-center md:justify-between shadow-lg text-center md:text-left">
+            <h2 className="text-1xl md:text-3xl font-bold text-white mb-4 md:mb-0 leading-tight">
+              NextGrid Solar – Lighting the Future with Clean Energy. Start your solar journey with us today!
             </h2>
-            <button className="bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800 hover:text-white transition">
+            <button className="bg-black whitespace-nowrap text-white px-6 py-3 font-semibold hover:bg-gray-800 hover:text-white transition">
               Get in Touch
             </button>
           </div>
