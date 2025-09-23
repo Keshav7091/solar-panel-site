@@ -57,7 +57,7 @@ const EnergySection = () => {
           <div className="relative">
             <div className="absolute -right-5 top-6 w-full h-full bg-orange-400 -z-10 rounded-sm"></div>
             <img
-              src="/energy.jpg"
+              src="/new/11.jpg"
               alt="Solar House"
               className="w-full rounded-sm"
             />

@@ -11,7 +11,7 @@ const Intro = () => {
           <div className="absolute bottom-0 left-0 w-[90%] h-8 bg-gray-200 rounded-sm -z-10"></div>
 
           <img
-            src="/intro.jpg"
+            src="/new/introImg.jpg"
             alt="Agency studio"
             className="w-full h-full object-cover"
           />

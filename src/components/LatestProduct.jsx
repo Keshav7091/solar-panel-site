@@ -5,25 +5,25 @@ const products = [
     id: 1,
     title: "Green Tech Education",
     description: "Installations",
-    image: "/product1.webp",
+    image: "/new/7.jpg",
   },
   {
     id: 2,
     title: "Commercial Solar Inspections",
     description: "Installations",
-    image: "/product2.webp",
+    image: "/new/8.jpg",
   },
   {
     id: 3,
     title: "Solar Research Development",
     description: "Installations",
-    image: "/product3.webp",
+    image: "/new/0.jpg",
   },
   {
     id: 4,
     title: "Tile & Metal Roof Installations",
     description: "Installations",
-    image: "/product4.webp",
+    image: "/new/10.jpg",
   },
 ];
 

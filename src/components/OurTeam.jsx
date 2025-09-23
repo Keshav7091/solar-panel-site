@@ -7,19 +7,19 @@ const teamMembers = [
     id: 1,
     name: "Robert Smith",
     role: "Director",
-    image: "/teams/team1.jpg",
+    image: "/new/15.jpg",
   },
   {
     id: 2,
     name: "John Albert",
     role: "Engineer",
-    image: "/teams/team2.jpg",
+    image: "/new/16.jpg",
   },
   {
     id: 3,
     name: "Mike Hardson",
     role: "Installer",
-    image: "/teams/team3.jpg",
+    image: "/new/0.jpg",
   },
 ];
 

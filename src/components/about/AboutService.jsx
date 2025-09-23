@@ -6,21 +6,21 @@ const services = [
     title: "Renewable Source",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, dapibus leo.",
-    image: "/about/AboutS1.webp", // Replace with your actual image
+    image: "/new/1.jpg", // Replace with your actual image
   },
   {
     id: 2,
     title: "Easy Installation",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, dapibus leo.",
-    image: "/about/AboutS2.webp", // Replace with your actual image
+    image: "/new/2.jpg", // Replace with your actual image
   },
   {
     id: 3,
     title: "Low Maintenance",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec mattis, dapibus leo.",
-    image: "/about/AboutS3.webp", // Replace with your actual image
+    image: "/new/3.jpg", // Replace with your actual image
   },
 ];
 

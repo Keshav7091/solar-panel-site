@@ -13,7 +13,7 @@ const About = () => {
       <Banner
         title="About"
         subtitle="Helping you save energy and keep the lights on"
-        image="/bannerImg.webp"
+        image="/new/Banner0.jpg"
       />
       <AboutService />
       <EnergySection />

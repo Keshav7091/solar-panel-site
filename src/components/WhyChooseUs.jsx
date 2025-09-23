@@ -52,12 +52,12 @@ const WhyChooseUs = () => {
           {/* Right Images (hidden on small screens) */}
           <div className="hidden md:grid grid-cols-2 h-full">
             <img
-              src="/product1.webp"
+              src="/new/13.jpg"
               alt="Solar Panels"
               className="w-full h-full object-cover"
             />
             <img
-              src="/product2.webp"
+              src="/new/14.jpg"
               alt="Solar Panels"
               className="w-full h-full object-cover"
             />

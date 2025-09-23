@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "/about/banner-b.webp";
+
 
 import {
   FaSolarPanel,
@@ -44,7 +44,7 @@ const Stats = () => {
     <section
       className="py-16 relative"
       style={{
-        backgroundImage: `url(${bgImage})`,
+        backgroundImage: `url("/new0.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

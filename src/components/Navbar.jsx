@@ -33,7 +33,7 @@ const Navbar = () => {
               {/* Text */}
               <div className="flex flex-col leading-tight">
                 <span className="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-wide">
-                  Next Grid
+                  NextGrid
                 </span>
                 <span className="text-sm md:text-base font-semibold text-orange-500 uppercase tracking-widest">
                   Solar Energy

@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       className="relative bg-cover bg-center h-[90vh] flex items-center"
       style={{
-        backgroundImage: "url('/hero.jpg')",
+        backgroundImage: "url('/new/Banner0.jpg')",
       }}
     >
       {/* Overlay for dark effect */}

@@ -57,15 +57,13 @@ const Contact = () => {
     }
   };
 
-  
-
   return (
     <div>
       <Toaster position="top-right" reverseOrder={false} />
       <Banner
         title="Contacts"
         subtitle="Helping you save energy and keep the lights on"
-        image="/bannerImg.webp"
+        image="/new/Banner0.jpg"
       />
 
       <section>
@@ -97,10 +95,14 @@ const Contact = () => {
                   Take the Next Step Towards Solar
                 </h2>
                 <p className="text-gray-600 mt-4">
-                  Whether you want to power your home, business, or industry, NextGrid Solar has the right solution for you. Our team is ready to guide you through every step – from consultation to commissioning.
+                  Whether you want to power your home, business, or industry,
+                  NextGrid Solar has the right solution for you. Our team is
+                  ready to guide you through every step – from consultation to
+                  commissioning.
                 </p>
                 <p className="text-gray-600 mt-4">
-                  📞 Contact Us Today for a free consultation and start saving with solar!
+                  📞 Contact Us Today for a free consultation and start saving
+                  with solar!
                 </p>
                 <p className="text-gray-600 mt-2">
                   💡 NextGrid Solar – Lighting the Future, One Panel at a Time.
@@ -109,7 +111,7 @@ const Contact = () => {
                 <ul className="mt-6 space-y-4 text-gray-700">
                   <li className="flex items-center gap-3 border-b border-gray-200 pb-3">
                     <span className="text-[#f6a235] text-xl">📞</span>
-                    (123) 456-7890
+                    +919958878741
                   </li>
                   <li className="flex items-center gap-3 border-b border-gray-200 pb-3">
                     <span className="text-[#f6a235] text-xl">📧</span>
@@ -117,14 +119,14 @@ const Contact = () => {
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="text-[#f6a235] text-xl">📍</span>
-                    60 Brooklyn Street New York. USA
+                    SK 38, Sector 117 , Noida 201301
                   </li>
                 </ul>
               </div>
 
               {/* Right Side Form */}
               <div className="bg-[#faf5ef] p-8 ">
-              <h2 className="text-4xl font-bold text-gray-900 my-5 leading-snug">
+                <h2 className="text-4xl font-bold text-gray-900 my-5 leading-snug">
                   Contact Us
                 </h2>
                 <form
@@ -165,7 +167,6 @@ const Contact = () => {
                     onChange={(e) => setMessage(e.target.value)}
                     className="w-full bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235] resize-none"
                   ></textarea>
-
 
                   <CustomButton text="Send a Message" size="lg" />
                 </form>

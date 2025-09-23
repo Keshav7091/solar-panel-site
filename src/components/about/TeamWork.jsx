@@ -44,7 +44,7 @@ export default function TeamWork() {
     <section
       className="relative text-white"
       style={{
-        backgroundImage: `url(${bgImage})`,
+        backgroundImage: `url("/new/2.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -76,7 +76,7 @@ export default function TeamWork() {
             <h3 className="font-bold text-xl mt-2 mb-4">{s.title}</h3>
              <span className="block w-6 h-[2px] bg-[#F6A235] mb-4"></span>
             {/* Description */}
-            <p className="text-gray-400 text-sm">{s.description}</p>
+            <p className="text-white text-sm">{s.description}</p>
           </div>
         ))}
       </div>
