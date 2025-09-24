@@ -24,9 +24,8 @@ const OurProcess = () => {
     },
   ];
 
-  
   return (
-    <section className="py-12 container bg-white">
+    <section className="py-12 pb-30 container bg-white">
       <div className="text-center mb-12">
         <div className="w-5 h-[2px] bg-[#f6a235] mb-3 mx-auto"></div>
         <h4 className="text-sm text-gray-400 font-bold tracking-widest uppercase mb-2">

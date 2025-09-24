@@ -26,7 +26,7 @@ const Home = () => {
       <BenefitsSection />
       <WhyChooseUs />
       <OurProcess />
-      <OurTeam />
+      {/* <OurTeam /> */}
     </div>
   );
 };

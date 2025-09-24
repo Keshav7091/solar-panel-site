@@ -68,7 +68,7 @@ const Intro = () => {
               </div>
               <div>
                 <p className="text-gray-500 text-sm">Have any questions?</p>
-                <p className="font-bold text-gray-900">(123) 456-7890</p>
+                <p className="font-bold text-gray-900">+91 9958878741</p>
               </div>
             </div>
           </div>
