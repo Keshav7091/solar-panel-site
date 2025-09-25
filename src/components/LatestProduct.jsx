@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -28,6 +29,14 @@ const products = [
 ];
 
 const LatestProduct = () => {
+
+  const handleLinkClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section className="py-16 bg-[#faf5ef]">
       {/* Heading Section */}
@@ -42,7 +51,7 @@ const LatestProduct = () => {
       </div>
 
       {/* Grid Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((prod) => (
           <div
             key={prod.id}
@@ -59,7 +68,7 @@ const LatestProduct = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.75)] via-[rgba(0,0,0,0.3)] to-transparent"></div>
 
             {/* Content */}
-            <div className="absolute bottom-6 left-6 right-6 transition-all duration-500 transform  translate-y-0 group-hover:opacity-100">
+            <div className="absolute bottom-6 left-6 right-6 transition-all duration-500 transform translate-y-0 group-hover:opacity-100">
               <div className="w-6 h-[2px] bg-[#f6a235] mb-2"></div>
               <p className="text-xs uppercase tracking-widest text-[rgba(255,255,255,.7)] mb-2">
                 {prod.description}
@@ -67,9 +76,15 @@ const LatestProduct = () => {
               <h4 className="text-xl font-bold text-white leading-snug mb-4">
                 {prod.title}
               </h4>
-              <button className="bg-[#f6a235] text-white px-4 py-2 text-sm font-medium transition">
+
+              {/* Link Button */}
+              <Link
+                to="/product/SolarSolutions"
+                className="bg-[#f6a235] text-white px-4 py-2 text-sm font-medium inline-block transition hover:bg-yellow-500"
+                onClick={handleLinkClick}
+              >
                 View More
-              </button>
+              </Link>
             </div>
           </div>
         ))}

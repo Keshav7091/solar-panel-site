@@ -3,7 +3,7 @@ import Banner from "../components/Banner";
 import AboutService from "../components/about/AboutService";
 import EnergySection from "../components/EnergySection";
 import Stats from "../components/Stats";
-import OurTeam from "../components/OurTeam";
+// import OurTeam from "../components/OurTeam";
 import TeamWork from "../components/about/TeamWork";
 import Testimonials from "../components/about/Testimonials";
 
@@ -20,7 +20,7 @@ const About = () => {
       <Stats />
       <Testimonials />
       <TeamWork />
-      <OurTeam />
+      {/* <OurTeam /> */}
     </div>
   );
 };

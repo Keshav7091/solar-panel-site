@@ -113,10 +113,10 @@ const Contact = () => {
                     <span className="text-[#f6a235] text-xl">📞</span>
                     +919958878741
                   </li>
-                  <li className="flex items-center gap-3 border-b border-gray-200 pb-3">
+                  {/* <li className="flex items-center gap-3 border-b border-gray-200 pb-3">
                     <span className="text-[#f6a235] text-xl">📧</span>
                     needhelp@company.com
-                  </li>
+                  </li> */}
                   <li className="flex items-center gap-3">
                     <span className="text-[#f6a235] text-xl">📍</span>
                     SK 38, Sector 117 , Noida 201301
@@ -139,7 +139,7 @@ const Contact = () => {
                     required
                     value={fullName}
                     onChange={(e) => setFullName(e.target.value)}
-                    className="w-[75%] bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235]"
+                    className="w-full bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235]"
                   />
 
                   <input
@@ -148,7 +148,7 @@ const Contact = () => {
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="w-[75%] bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235]"
+                    className="w-full bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235]"
                   />
 
                   <input
@@ -157,7 +157,7 @@ const Contact = () => {
                     required
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)}
-                    className="w-[75%] bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235]"
+                    className="w-full bg-white text-black border border-gray-300 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#f6a235]"
                   />
 
                   <textarea
